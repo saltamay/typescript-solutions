@@ -1,6 +1,6 @@
 # TypeScript Mastery
 
-Learn TypeScript, a superset of JavaScript that make building large applications a breeze!
+Learn TypeScript, a superset of JavaScript that makes building large applications a breeze!
 
 ## Why TypeScript?
 
@@ -15,7 +15,7 @@ You will learn how to use the JavaScript syntax that you already know and apply 
 # Outline
 
 1. Types
-    <!-- Learn TypeScript, a superset of JavaScript that adds types to make the language scale! -->
+    Learn TypeScript, a superset of JavaScript that makes building large applications a breeze!
 2. Fnctions
 3. Complex Types
 4. Union Types
