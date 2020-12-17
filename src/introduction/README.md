@@ -51,6 +51,6 @@ To do this, run npm install -g typescript. This will install the latest version 
 
 An alternative is to use npx when you have to run tsc for one-off occasions.
 
-## TypeScript in your Project
+## Sample tsconfig.json
 
-Having 
+TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system. TypeScript has so many great features that come by default such as checking for syntax errors, or providing tooltips that show you why some code might throw an error. TypeScript also recognizes the need for flexibility. 
