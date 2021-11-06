@@ -7,15 +7,19 @@ export default class LinkedListNode<T> {
 		this._next = next;
 	}
 
-	get data(): T {
+	public get data(): T {
 		return this._data;
 	}
 
-	get next(): LinkedListNode<T> | null {
+	public get next(): LinkedListNode<T> | null {
 		return this._next;
 	}
 
-	set next(next: LinkedListNode<T> | null) {
+	public set next(next: LinkedListNode<T> | null) {
 		this._next = next;
+	}
+
+	public toString(cb: Function | null = null): T {
+		return cb ? cb(this._data) : `${this._data}`;
 	}
 }

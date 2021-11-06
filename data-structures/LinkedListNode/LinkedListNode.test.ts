@@ -33,4 +33,9 @@ describe('Linked List Node', () => {
 
 		expect(firstNode.next).toEqual(secondNode);
 	});
+
+	it('prints out the string representation of its value', () => {
+		const node = new LinkedListNode(1);
+		expect(node.toString()).toBe('1');
+	});
 });
