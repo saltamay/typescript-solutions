@@ -1,4 +1,4 @@
-### Algorithm #1: Reverse Array In Place
+### Algorithm #3: Reverse Array In Place
 
 ---
 
