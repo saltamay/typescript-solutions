@@ -4,39 +4,39 @@ const pairs: any = {
 	'{': '}',
 };
 
+const openingBraces = '([{';
+const closingBraces = ')]}';
+
 export const braces = (arr: string[]): number[] => {
-	let results: any = [];
+	let results: number[] = [];
 
-	arr.forEach((item) => {
-		let left = 0;
-		let right = item.length - 1;
-		let result = 1;
+	arr.forEach((str) => {
+		const openStack = [];
 
-		if (item.length % 2 === 1) result = 0;
-
-		while (left < right) {
-			const leftEl = pairs[item[left]];
-			const rightEl = item[right];
-
-			if (leftEl !== rightEl) {
-				const leftNeighbor = item[left + 1];
-				if (leftEl === leftNeighbor) {
-					left += 2;
+		for (let i = 0; i < str.length; i++) {
+			const char = str.charAt(i);
+			if (openingBraces.includes(char)) {
+				openStack.push(char);
+			} else if (closingBraces.includes(char)) {
+				const lastItem = openStack[openStack.length - 1];
+				if (pairs[lastItem] !== char) {
+					results.push(0);
+					return;
 				} else {
-					result = 0;
-					left++;
-					right--;
+					openStack.pop();
 				}
-			} else {
-				left++;
-				right--;
 			}
 		}
 
-		results.push(result);
+		if (!openStack.length) {
+			results.push(1);
+		} else {
+			results.push(0);
+		}
 	});
 
 	return results;
 };
 
-// console.log(braces([')(){}', '[]({})', '([])', '{()[]}', '([)]]']));
+// const expressions = [']'];
+// braces(expressions);
