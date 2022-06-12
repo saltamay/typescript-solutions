@@ -19,7 +19,7 @@
 
 - [Insertion Sort](https://github.com/saltamay/typescript-solutions/blob/main/algorithms/sorting/insertion-sort/insertion-sort.ts) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 - [Monotonic Array](https://github.com/saltamay/typescript-solutions/blob/main/algorithms/sorting/monotonic-array/monotonic-array.ts) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
-- [Sorted Squared Array](https://github.com/saltamay/typescript-solutions/blob/main/algorithms/sorted-squared-array/sorted-squared-array.ts) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
+- [Sorted Squared Array](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/SortedSquaredArray) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 - [Is Sequence](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/IsSequence) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 
 <div id="challenges"></div>
