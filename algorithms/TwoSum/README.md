@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 
-# Algorithm #12: Find Two Numbers that Add up to "value"
+# Two Sum
 
 [LeetCode](https://leetcode.com/problems/two-sum/)
 
