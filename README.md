@@ -22,6 +22,7 @@
 - [Sorted Squared Array](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/SortedSquaredArray) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 - [Is Subsequence](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/IsSubsequence) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 - [Two Sum](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/TwoSum) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
+- [Average of Subarray of Size K](https://github.com/saltamay/typescript-solutions/tree/main/algorithms/AverageOfSubarrayOfSizeK) <img src="https://img.shields.io/badge/-Easy-brightgreen" />
 
 <div id="challenges"></div>
 
